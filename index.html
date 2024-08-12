@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" class="file-color">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kamranshehzad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grey+Qo&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        .file-color {
+            background-color: #DBE2EF;
+        }
+
+        h1 {
+            font-family: "Grey Qo", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 4rem;
+            margin: 0;
+            padding-bottom: 10px;
+            border-bottom: 4px solid #DBE2EF;
+        }
+
+        .heading-color {
+            font-family: "Grey Qo", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 4rem;
+            color: #112D4E;
+            border-bottom: 5px solid #DBE2EF;
+            animation: slideInFromLeft 1s ease-in-out;
+        }
+
+        #Welcoming_Part {
+            display: flex;
+            justify-content: center;
+            padding-top: 100px;
+            background-color: #112D4E;
+            border-bottom: 100px;
+            background: linear-gradient(135deg, #112D4E, #3F72AF);
+            background-size: 200% 200%;
+            animation: tideEffect 10s ease infinite;
+        }
+
+        .paragraph, h1 {
+            margin-left: 100px;
+        }
+
+        h1, .paragraph {
+            color: #DBE2EF;
+        }
+
+        p {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 2rem;
+            text-align: left;
+        }
+
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .paragraph, h1 {
+            animation: slideInFromLeft 1s ease-out;
+        }
+
+        @keyframes tideEffect {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+
+        .paragraph {
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            list-style: none;
+            font-size: 4rem;
+            text-align: left;
+        }
+
+        .img-fluid {
+            border: 10px solid #DBE2EF;
+            border-radius: 50%;
+            animation: slideInFromLeft 1s ease-out;
+        }
+
+        .personal-image {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .heading-color {
+            color: #112D4E;
+        }
+
+        .background{
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            color: #112D4E;
+            text-align: left;
+        }
+    .Footer{
+        background-color: #112D4E;
+    }
+    .Skills{
+        height: 600px;
+        width: 1300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+        background-color: #DBE2EF;
+    }
+    .Skills *{
+        box-sizing: border-box;
+    }
+    .One{
+        background-color: #112D4E;
+        color: #DBE2EF;
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 20px;
+        font-family: Anton, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        list-style: none;
+        font-size: 2rem;
+        text-align: left;
+    }
+    .Two{
+        background-color: #112D4E;
+        color: #DBE2EF;  
+    }
+    .Three{
+        background-color: #112D4E;
+        color: #DBE2EF;
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 20px;
+        font-family: Anton, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        list-style: none;
+        font-size: 2rem;
+        text-align: left;
+    }
+    .Four{
+        background-color: #112D4E;
+        color: #DBE2EF;
+    }
+    .Interests{
+        height: 600px;
+        width: 1300px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+        background-color: #DBE2EF;
+    }
+    .Interests *{
+        box-sizing: border-box;
+    }
+    .First{
+        background-color: #112D4E;
+        color: #DBE2EF;
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 20px;
+        font-family: Anton, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        list-style: none;
+        font-size: 1rem;
+        text-align: left;
+    }
+    .Second{
+        background-color: #112D4E;
+        color: #DBE2EF; 
+    }
+    .Third{
+        background-color: #112D4E;
+        color: #DBE2EF;
+        justify-content: center;
+        list-style: none;
+        padding-bottom: 20px;
+        font-family: Anton, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        list-style: none;
+        font-size: 2rem;
+        text-align: left;
+    }
+    .Fourth{
+        background-color: #112D4E;
+        color: #DBE2EF;
+    }
+    .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #112D4E;
+}
+
+.logo-letter {
+    font-size: 80px;
+    color: #DBE2EF;
+    margin-right: 20px;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    font-size: 14px;
+    color: #DBE2EF;
+    text-align: center;
+}
+
+.logo-grid div {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
+</head>
+<body>
+    <section class="title-bar" style="background-color: #112D4E; border-bottom: 10px solid #DBE2EF; border-radius: 10px;">
+        <nav class="navbar navbar-expand navbar-dark" aria-label="Second navbar example">
+            <div class="container-fluid">
+                <div class="logo-container">
+                    <div class="logo-letter">K</div>
+                    <div class="logo-grid">
+                        <div>K</div>
+                        <div>A</div>
+                        <div>M</div>
+                        <div>R</div>
+                        <div>A</div>
+                        <div>N</div>
+                    </div>
+                </div>                
+        
+              <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #DBE2EF;">&nbsp; &nbsp; Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: #DBE2EF;">Projects</a>
+                  </li>
+                </ul>
+                <form role="search">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search" style="border-color: #112D4E;">
+                </form>
+              </div>
+            </div>
+          </nav>      
+
+    </section>
+
+    <section id="Welcoming_Part" class="container-fluid my-0">
+        <div class="row align-items-center">
+            <!-- Text Section -->
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <h1 class="fw-bold lh-1 mb-3">Kamran Shehzad</h1>
+                <ul class="paragraph list-unstyled">
+                    <li>Website-Developer</li>
+                    <li>Programmer</li> 
+                </ul>
+            </div>
+            <!-- Image Section -->
+            <div class="col-12 col-md-6">
+                <img src="programmer.jpg" class="d-block mx-auto img-fluid" alt="Programmer's theme" width="700" height="500" loading="lazy">
+            </div>
+        </div>
+    </section>  
+    
+    
+
+        <section class="content">
+            <div class="container my-5">
+                <div class="p-5 text-center bg-body-tertiary">
+                    <div class="container py-5 paragraph-color">
+                        <h2 class="heading-color">Intro & Background</h2>
+                        <div class="personal-image">
+                            <img src="my_picture.jpg" alt="Kamran Shehzad" style="border:10px solid #112D4E; border-radius: 50%;">
+                        </div>
+                        <p class="col-lg-8 mx-auto lead background">
+                            I am Kamran Shehzad from Pakistan studying in "Bachelors of Science in Computer Science" at Germany.
+                            I have completed 
+                            Intermediate in Computer Science in my native homeland. I am intended to be a 
+                            professional <b>Website-Developer and Cybersecurity Expert</b>. After completing my Bachelors 
+                            degree I intend to join big tech company, <i>"Microsoft"</i>. Following is my CV:                                   
+                        </p>
+                        <div class="col-lg-6 col-xxl-4 my-5 mx-auto linked-button">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="button" style="border-width: 10px; background-color: #112D4E; border-color: #112D4E;">
+                                    <a href="../HTML/4.4 Capstone_Project/index.html" style="color: #DBE2EF;" class="link"><b>MY CV</b></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+       
+    <!-- Skills Section -->
+    <!-- Skills Section -->
+    <section class="container" style="background-color: #112D4E; padding: 20px; border-radius: 10px;">
+        <h1 style="color: #DBE2EF; text-align: center; font-size: 4rem;">Skills</h1>
+        <br>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+            <!-- Programming in C++ Section -->
+            <div style="flex: 1 1 300px; text-align: center;">
+                <img src="goran-ivos-iOykDIkZLQw-unsplash.jpg" alt="Programming_in_C++" style="border-radius: 10px; border: 10px solid #DBE2EF; max-width: 100%; height: auto;">
+                <p style="font-size: 16pt; color: #DBE2EF; margin-top: 10px;">
+                    I, Kamran Shehzad, am equipped with C++ programming knowledge including data types,
+                    data structures, Object-Oriented Programming, File Handling, and Libraries. During my studies at the university,
+                    I obtained the highest grades in <i>"Programming"</i> skills. Moreover, I was the head of the <b>University's Society of Information Technology</b>.
+                </p>
+            </div>
+            <!-- Creative Writing Section -->
+            <div style="flex: 1 1 300px; text-align: center;">
+                <img src="Creative Writing.jpeg" alt="Pen and Books with creative thoughts" style="border-radius: 10px; border: 10px solid #DBE2EF; max-width: 100%; height: auto;">
+                <p style="font-size: 16pt; color: #DBE2EF; margin-top: 10px;">
+                    As far as my Creative Writing skills are concerned, I have an impeccable record in <i>"Creative Writing Skills"</i>.
+                    I participated in several competitions and received several distinctions. For me, <b>Creativity</b> is more than a skill. It's a place to express feelings and knowledge.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <!-- Interests Section -->
+<section class="container" style="background-color: #112D4E; padding: 20px; border-radius: 10px;">
+    <h1 style="color: #DBE2EF; text-align: center;">Interests</h1>
+    <br>
+    <div class="row">
+        <!-- Cricket Section -->
+        <div class="col-lg-6 col-md-12 mb-4 text-center">
+            <h2 style="color: #DBE2EF;">Cricket</h2>
+            <img src="Cricket.jpeg" alt="Batsman hitting the ball" class="img-fluid" style="border-radius: 10px; border: 10px solid #DBE2EF;">
+            <p style="font-size:16pt; color: #DBE2EF; margin-top: 10px;">
+                If you are living in Pakistan and you don't have an interest in Cricket, then there is doubt about your nationality. 
+                I am a vigilant participant in cricket, with Fakhar Zaman and Ben Stokes being my favorite middle-order batsmen. 
+                I enjoy watching them play. I myself am an off-spinner and a top-order batsman.
+            </p>
+        </div>
+
+        <!-- Ethical Hacking Section -->
+        <div class="col-lg-6 col-md-12 text-center">
+            <h2 style="color: #DBE2EF;">Ethical Hacking</h2>
+            <img src="Ethical Hacking.jpeg" alt="White hat hacker" class="img-fluid" style="border-radius: 10px; border: 10px solid #DBE2EF;">
+            <p style="font-size: 16pt; color: #DBE2EF; margin-top: 10px;">
+                Being passionate about Programming, I am quite interested in pursuing <i>"Ethical Hacking"</i> practices in the near future. 
+                I plan to specialize in <b>Cybersecurity</b> with an integration of <b>Artificial Intelligence</b>. 
+                As technology continues to advance at an expedited pace, knowledge of AI has become essential.
+            </p>
+        </div>
+    </div>
+</section>
+
+<br><br>
+
+<!-- Projects Section -->
+<section class="container" style="padding: 20px; border-radius: 10px; background-color: #f8f9fa;">
+    <h1 style="color: #112D4E; text-align: center;">Projects</h1>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Snake Game</li>
+                <li class="list-group-item">Ping Pong Game</li>
+                <li class="list-group-item">Password-Manager</li>
+                <li class="list-group-item">Birthday-Wisher</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<br>
+<br>
+<section class="contact-section" style="background-color: #112D4E; border-radius: 10px; margin: 0 auto; padding: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center text-light">Contact Me</h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-6 col-md-12 mb-3">
+                <ul class="list-unstyled">
+                    <li style="color: #DBE2EF;">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="27" viewBox="0 0 24 24" fill="#DBE2EF">
+                            <path d="M20 19L4 19 4 7 12 12 20 7z" opacity=".3"></path>
+                            <path d="M20,4H4C2.895,4,2,4.895,2,6v12c0,1.105,0.895,2,2,2h16c1.105,0,2-0.895,2-2V6C22,4.895,21.105,4,20,4z M19,18H5V6h14V18z"></path>
+                            <path d="M3 7.376L12 13 21 7.376 21 4.376 12 10 3 4.376z"></path>
+                        </svg> shehzadkamran100@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <ul class="list-unstyled">
+                    <li style="color: #DBE2EF;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="#DBE2EF" class="bi bi-phone" viewBox="0 0 16 16">
+                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                        </svg> (+92) 3079060391
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+    <section class="Footer">
+        <div class="container-fluid">
+            <footer class="footer d-flex flex-column justify-content-between align-items-center">
+                <div class="d-flex align-items-center mb-3">
+                    <a href="/" class="mb-3 me-2 text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="40"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <span class="text-light" style="color: #DBE2EF;">© 2024 Kamran @Germany</span>
+                </div>
+                <div class="container" style="display: flex;  justify-content: flex-end;">
+                <ul class="nav justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="#DBE2EF" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                        </svg></a></li>
+                    <li class="ms-3"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" fill="#DBE2EF" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg></a></li>  &nbsp; &nbsp; &nbsp; &nbsp;
+                      
+                        <li style="color: #DBE2EF;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="27" viewBox="0 0 24 24" fill="#DBE2EF">
+                            <path d="M20 19L4 19 4 7 12 12 20 7z" opacity=".3"></path><path d="M20,4H4C2.895,4,2,4.895,2,6v12c0,1.105,0.895,2,2,2h16c1.105,0,2-0.895,2-2V6C22,4.895,21.105,4,20,4z M19,18H5V6h14V18z"></path><path d="M3 7.376L12 13 21 7.376 21 4.376 12 10 3 4.376z"></path>
+                            </svg> shehzadkamran100@gmail.com</li>
+                </ul>
+            </div>
+            </footer>
+        </div>
+    </section>    
+</body>
+</html>
+
